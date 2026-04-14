@@ -1,51 +1,311 @@
-<!DOCTYPE html>
-<html lang="uk">
+﻿<html lang="en" class="theme-linear light">
 <head>
-    <meta charset="UTF-8" />
-    <title>Приклад сторінки</title>
-    <style>
-        html, body {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            font-family: Arial, sans-serif;
-        }
-        header {
-            background-color: green;
-            padding: 20px;
-            color: white;
-            text-align: center;
-        }
-        /* Батьківський контейнер для всієї сторінки */
-        main {
-            display: flex;
-            flex-direction: column;
-            height: calc(100% - 60px); /* висота шапки приблизно 60px, можна підлаштувати */
-        }
-        .categories {
-            padding: 20px;
-            display: flex;
-            gap: 15px;
-        }
-        iframe {
-            flex: 1; /* щоб займав весь залишковий простір */
-            width: 100%;
-            border: none;
-        }
-    </style>
-</head>
+   <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ярослав Пежинський | CV</title>
+    
+    <link rel="stylesheet" href="style.css">
+	
+
+  </head>
+ <body>
 <body>
-    <header>
-        <h1>Зелена шапка</h1>
-    </header>
-    <main>
-        <div class="categories">
-            <div class="category">тест 1</div>
-            <div class="category">тест 2</div>
-            <div class="category">тест 3</div>
-            <div class="category">тест 4</div>
+    <div id="root">
+        <section aria-label="Notifications alt+T" tabindex="-1" aria-live="polite" aria-relevant="additions text" aria-atomic="false"></section>
+        <div class="flex w-full flex-1 flex-col min-h-0">
+            <div class="min-h-screen bg-background text-foreground selection:bg-primary/30">
+                <div class="fixed inset-0 pointer-events-none">
+                    <div class="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-primary/10 rounded-full blur-[120px]"></div>
+                    <div class="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-accent/10 rounded-full blur-[120px]"></div>
+                </div>
+                <div class="mx-auto w-full px-4 sm:px-6 lg:px-8 relative py-12 md:py-24 max-w-5xl">
+                    <div class="flex flex-col" style="gap: 80px;">
+                        <section class="flex flex-col md:flex-row items-center gap-12" style="opacity: 1; transform: none;">
+                            <div class="flex-1 space-y-6 text-center md:text-left">
+                                <div class="inline-flex items-center px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-bold tracking-widest uppercase mb-2">IT Support &amp; Content Specialist &amp; Media Buyer</div>
+                                <h1 class="text-5xl md:text-7xl font-bold font-display tracking-tight">Ярослав <br><span class="text-gradient">Пежинський</span></h1>
+                                <p class="text-lg md:text-xl text-muted-foreground max-w-2xl leading-relaxed">Набутий досвід у технічній підтримці, координації та мотивації команди, а також практичний досвід у сфері iGaming. Поєдную аналітичний і креативний підхід, впевнено працюю в різних напрямах IT та швидко адаптуюся до нових задач.</p>
+                                <div class="flex flex-row justify-center md:justify-start" style="gap: 16px;"><button class="inline-flex items-center justify-center whitespace-nowrap font-medium font-sans transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-11 text-base rounded-full px-8 gap-2 group">Зв'язатися<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-send group-hover:translate-x-1 transition-transform" aria-hidden="true">
+                                            <path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"></path>
+                                            <path d="m21.854 2.147-10.94 10.939"></path>
+                                        </svg></button>
+                                    <div class="flex gap-2"><a href="https://t.me/notbadnowyouu" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium font-sans transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-border bg-transparent hover:bg-accent hover:text-accent-foreground h-9 w-9 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-send" aria-hidden="true">
+                                                <path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"></path>
+                                                <path d="m21.854 2.147-10.94 10.939"></path>
+                                            </svg></a><a href="mailto:yaroslaw.baron@gmail.com" class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium font-sans transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-border bg-transparent hover:bg-accent hover:text-accent-foreground h-9 w-9 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail" aria-hidden="true">
+                                                <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
+                                                <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                                            </svg></a></div>
+                                </div>
+                            </div>
+                            <div class="relative">
+                                <div class="w-64 h-64 md:w-80 md:h-80 rounded-[2.5rem] bg-gradient-to-br from-primary to-accent p-1 rotate-3 hover:rotate-0 transition-transform duration-500 shadow-2xl overflow-hidden group">
+                                    <div class="w-full h-full bg-background rounded-[2.2rem] flex items-center justify-center p-8 overflow-hidden relative">
+                                        <div class="absolute inset-0 bg-grid-white/5"></div>
+                                        <div class="z-10 text-center space-y-4"><svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code-xml mx-auto text-primary animate-pulse" aria-hidden="true">
+                                                <path d="m18 16 4-4-4-4"></path>
+                                                <path d="m6 8-4 4 4 4"></path>
+                                                <path d="m14.5 4-5 16"></path>
+                                            </svg>
+                                            <p class="font-display font-bold text-2xl">YP</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section style="opacity: 1;">
+                            <div class="grid grid-cols-2 md:grid-cols-4 gap-4" style="grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr));">
+                                <div class="rounded-lg border border-border bg-card text-card-foreground shadow-card glass p-6">
+                                    <div class="p-5">
+                                        <div class="flex items-start justify-between">
+                                            <div class="space-y-1 min-w-0">
+                                                <p class="text-sm font-medium text-[hsl(var(--muted-foreground))] truncate">Досвід в IT</p>
+                                                <p class="text-2xl font-bold text-[hsl(var(--foreground))]">8+ років</p>
+                                            </div>
+                                            <div class="text-[hsl(var(--muted-foreground))] shrink-0 ml-2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-briefcase text-primary" aria-hidden="true">
+                                                    <path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                                    <rect width="20" height="14" x="2" y="6" rx="2"></rect>
+                                                </svg></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rounded-lg border border-border bg-card text-card-foreground shadow-card glass p-6">
+                                    <div class="p-5">
+                                        <div class="flex items-start justify-between">
+                                            <div class="space-y-1 min-w-0">
+                                                <p class="text-sm font-medium text-[hsl(var(--muted-foreground))] truncate">Мови</p>
+                                                <p class="text-2xl font-bold text-[hsl(var(--foreground))]">Польська, Укр</p>
+                                            </div>
+                                            <div class="text-[hsl(var(--muted-foreground))] shrink-0 ml-2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe text-primary" aria-hidden="true">
+                                                    <circle cx="12" cy="12" r="10"></circle>
+                                                    <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+                                                    <path d="M2 12h20"></path>
+                                                </svg></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rounded-lg border border-border bg-card text-card-foreground shadow-card glass p-6">
+                                    <div class="p-5">
+                                        <div class="flex items-start justify-between">
+                                            <div class="space-y-1 min-w-0">
+                                                <p class="text-sm font-medium text-[hsl(var(--muted-foreground))] truncate">Проектів</p>
+                                                <p class="text-2xl font-bold text-[hsl(var(--foreground))]">15+</p>
+                                            </div>
+                                            <div class="text-[hsl(var(--muted-foreground))] shrink-0 ml-2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-rocket text-primary" aria-hidden="true">
+                                                    <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path>
+                                                    <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09"></path>
+                                                    <path d="M9 12a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.4 22.4 0 0 1-4 2z"></path>
+                                                    <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 .05 5 .05"></path>
+                                                </svg></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rounded-lg border border-border bg-card text-card-foreground shadow-card glass p-6">
+                                    <div class="p-5">
+                                        <div class="flex items-start justify-between">
+                                            <div class="space-y-1 min-w-0">
+                                                <p class="text-sm font-medium text-[hsl(var(--muted-foreground))] truncate">Клієнтів</p>
+                                                <p class="text-2xl font-bold text-[hsl(var(--foreground))]">1000+</p>
+                                            </div>
+                                            <div class="text-[hsl(var(--muted-foreground))] shrink-0 ml-2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-target text-primary" aria-hidden="true">
+                                                    <circle cx="12" cy="12" r="10"></circle>
+                                                    <circle cx="12" cy="12" r="6"></circle>
+                                                    <circle cx="12" cy="12" r="2"></circle>
+                                                </svg></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="space-y-8">
+                            <div class="flex items-center gap-4">
+                                <h2 class="text-3xl font-bold font-display">Навички</h2>
+                                <div class="h-px flex-1 bg-border/50"></div>
+                            </div>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div class="rounded-lg border border-border bg-card text-card-foreground shadow-card glass border-none shadow-none">
+                                    <div class="p-6">
+                                        <h3 class="text-lg font-bold mb-4 flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-target text-primary" aria-hidden="true">
+                                                <circle cx="12" cy="12" r="10"></circle>
+                                                <circle cx="12" cy="12" r="6"></circle>
+                                                <circle cx="12" cy="12" r="2"></circle>
+                                            </svg>Маркетинг</h3>
+                                        <div class="flex flex-wrap gap-2">
+                                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold focus:outline-none focus:ring-2 focus:ring-[hsl(var(--ring))] focus:ring-offset-2 text-[hsl(var(--secondary-foreground))] bg-primary/5 hover:bg-primary/10 border-primary/20 transition-colors">Таргетинг</div>
+                                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold focus:outline-none focus:ring-2 focus:ring-[hsl(var(--ring))] focus:ring-offset-2 text-[hsl(var(--secondary-foreground))] bg-primary/5 hover:bg-primary/10 border-primary/20 transition-colors">Маркетинг</div>
+                                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold focus:outline-none focus:ring-2 focus:ring-[hsl(var(--ring))] focus:ring-offset-2 text-[hsl(var(--secondary-foreground))] bg-primary/5 hover:bg-primary/10 border-primary/20 transition-colors">Контент</div>
+                                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold focus:outline-none focus:ring-2 focus:ring-[hsl(var(--ring))] focus:ring-offset-2 text-[hsl(var(--secondary-foreground))] bg-primary/5 hover:bg-primary/10 border-primary/20 transition-colors">Customer.io</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rounded-lg border border-border bg-card text-card-foreground shadow-card glass border-none shadow-none">
+                                    <div class="p-6">
+                                        <h3 class="text-lg font-bold mb-4 flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-terminal text-primary" aria-hidden="true">
+                                                <path d="M12 19h8"></path>
+                                                <path d="m4 17 6-6-6-6"></path>
+                                            </svg>Розробка</h3>
+                                        <div class="flex flex-wrap gap-2">
+                                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold focus:outline-none focus:ring-2 focus:ring-[hsl(var(--ring))] focus:ring-offset-2 text-[hsl(var(--secondary-foreground))] bg-primary/5 hover:bg-primary/10 border-primary/20 transition-colors">HTML</div>
+                                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold focus:outline-none focus:ring-2 focus:ring-[hsl(var(--ring))] focus:ring-offset-2 text-[hsl(var(--secondary-foreground))] bg-primary/5 hover:bg-primary/10 border-primary/20 transition-colors">CSS</div>
+                                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold focus:outline-none focus:ring-2 focus:ring-[hsl(var(--ring))] focus:ring-offset-2 text-[hsl(var(--secondary-foreground))] bg-primary/5 hover:bg-primary/10 border-primary/20 transition-colors">Python (базовий)</div>
+                                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold focus:outline-none focus:ring-2 focus:ring-[hsl(var(--ring))] focus:ring-offset-2 text-[hsl(var(--secondary-foreground))] bg-primary/5 hover:bg-primary/10 border-primary/20 transition-colors">Telegram Bots</div>
+                                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold focus:outline-none focus:ring-2 focus:ring-[hsl(var(--ring))] focus:ring-offset-2 text-[hsl(var(--secondary-foreground))] bg-primary/5 hover:bg-primary/10 border-primary/20 transition-colors">Android ADB</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rounded-lg border border-border bg-card text-card-foreground shadow-card glass border-none shadow-none">
+                                    <div class="p-6">
+                                        <h3 class="text-lg font-bold mb-4 flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-panels-top-left text-primary" aria-hidden="true">
+                                                <rect width="18" height="18" x="3" y="3" rx="2"></rect>
+                                                <path d="M3 9h18"></path>
+                                                <path d="M9 21V9"></path>
+                                            </svg>CMS</h3>
+                                        <div class="flex flex-wrap gap-2">
+                                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold focus:outline-none focus:ring-2 focus:ring-[hsl(var(--ring))] focus:ring-offset-2 text-[hsl(var(--secondary-foreground))] bg-primary/5 hover:bg-primary/10 border-primary/20 transition-colors">Magento 3</div>
+                                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold focus:outline-none focus:ring-2 focus:ring-[hsl(var(--ring))] focus:ring-offset-2 text-[hsl(var(--secondary-foreground))] bg-primary/5 hover:bg-primary/10 border-primary/20 transition-colors">OpenCart 2x - 3x</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rounded-lg border border-border bg-card text-card-foreground shadow-card glass border-none shadow-none">
+                                    <div class="p-6">
+                                        <h3 class="text-lg font-bold mb-4 flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-briefcase text-primary" aria-hidden="true">
+                                                <path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                                <rect width="20" height="14" x="2" y="6" rx="2"></rect>
+                                            </svg>Soft Skills</h3>
+                                        <div class="flex flex-wrap gap-2">
+                                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold focus:outline-none focus:ring-2 focus:ring-[hsl(var(--ring))] focus:ring-offset-2 text-[hsl(var(--secondary-foreground))] bg-primary/5 hover:bg-primary/10 border-primary/20 transition-colors">Технічна підтримка</div>
+                                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold focus:outline-none focus:ring-2 focus:ring-[hsl(var(--ring))] focus:ring-offset-2 text-[hsl(var(--secondary-foreground))] bg-primary/5 hover:bg-primary/10 border-primary/20 transition-colors">Керування командою</div>
+                                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold focus:outline-none focus:ring-2 focus:ring-[hsl(var(--ring))] focus:ring-offset-2 text-[hsl(var(--secondary-foreground))] bg-primary/5 hover:bg-primary/10 border-primary/20 transition-colors">Клієнтоорієнтованість</div>
+                                            <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold focus:outline-none focus:ring-2 focus:ring-[hsl(var(--ring))] focus:ring-offset-2 text-[hsl(var(--secondary-foreground))] bg-primary/5 hover:bg-primary/10 border-primary/20 transition-colors">Стресостійкість</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                       <section class="space-y-8">
+    <div class="flex items-center gap-4">
+        <h2 class="text-3xl font-bold font-display">Досвід роботи</h2>
+        <div class="h-px flex-1 bg-border/50"></div>
+    </div>
+ <div class="space-y-6">
+
+  <!-- Приклад першого блоку (зроби так само для всіх інших) -->
+  <div class="rounded-lg border border-border bg-card text-card-foreground shadow-card glass overflow-hidden transition-all duration-300 hover:border-primary/50">
+    <div class="p-6">
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4">
+        <div>
+          <h3 class="text-xl font-bold font-display">Контент-менеджер у сфері IGaming</h3>
+          <p class="text-primary font-medium">Freelance / Agency</p>
         </div>
-        <iframe src="https://mines.kingfortuna.gold/index.htm"></iframe>
-    </main>
+        <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold bg-secondary text-secondary-foreground">
+          Лютий 2023 – Сьогодення
+        </div>
+      </div>
+
+      <p class="text-muted-foreground mb-4">Керування контентом для великих IGaming проектів. Робота з Magento, OpenCart. Оптимізація контенту під маркетингові цілі.</p>
+
+      <button class="accordion-button flex items-center gap-2 text-primary hover:text-accent font-medium transition-colors">
+        <span class="button-text">Показати більше</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="chevron transition-transform duration-300">
+          <path d="m6 9 6 6 6-6"></path>
+        </svg>
+      </button>
+
+      <div class="accordion-content overflow-hidden transition-all duration-300">
+        <ul class="mt-4 space-y-2 list-disc list-inside text-sm text-muted-foreground border-t border-border/50 pt-4">
+          <li>Створення та наповнення сайтів на Magento 3, OpenCart 2x-3x</li>
+          <li>Робота з Customer.io для автоматизації маркетингу</li>
+          <li>Оптимізація мета-даних та SEO-структури контенту</li>
+          <li>Взаємодія з дизайнерами та розробниками для покращення UX</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Повтори такий самий шаблон для всіх інших 5 блоків -->
+
+</div>
+</section>
+					   <section class="space-y-8">
+                            <div class="flex items-center gap-4">
+                                <h2 class="text-3xl font-bold font-display">Участь у проектах</h2>
+                                <div class="h-px flex-1 bg-border/50"></div>
+                            </div>
+                            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+                                <div class="glass p-4 text-center rounded-xl flex items-center justify-center font-bold text-sm tracking-wider uppercase hover:text-primary transition-colors cursor-default">Polbox.tv</div>
+                                <div class="glass p-4 text-center rounded-xl flex items-center justify-center font-bold text-sm tracking-wider uppercase hover:text-primary transition-colors cursor-default">Polsky.tv</div>
+                                <div class="glass p-4 text-center rounded-xl flex items-center justify-center font-bold text-sm tracking-wider uppercase hover:text-primary transition-colors cursor-default">AJAX.systems</div>
+                                <div class="glass p-4 text-center rounded-xl flex items-center justify-center font-bold text-sm tracking-wider uppercase hover:text-primary transition-colors cursor-default">PIN-UP</div>
+                                <div class="glass p-4 text-center rounded-xl flex items-center justify-center font-bold text-sm tracking-wider uppercase hover:text-primary transition-colors cursor-default">ZARRA</div>
+                                <div class="glass p-4 text-center rounded-xl flex items-center justify-center font-bold text-sm tracking-wider uppercase hover:text-primary transition-colors cursor-default">OMO.CASH</div>
+                            </div>
+                        </section>
+                        <section class="pt-12">
+                            <div class="rounded-lg border text-card-foreground shadow-card glass border-primary/20 bg-primary/5">
+                                <div class="p-8 md:p-12 text-center space-y-8">
+                                    <div class="space-y-4">
+                                        <h2 class="text-4xl font-bold font-display tracking-tight">Готові до нових викликів?</h2>
+                                        <p class="text-muted-foreground max-w-xl mx-auto">Я завжди відкритий для цікавих проектів та нових можливостей у сфері IT та IGaming. Напишіть мені, і ми обговоримо, як я можу бути корисним вашій команді.</p>
+                                    </div>
+                                    <div class="flex flex-wrap justify-center gap-6 md:gap-12"><a href="tel:+380689277200" class="flex items-center gap-3 text-lg font-medium hover:text-primary transition-colors group">
+                                            <div class="p-3 rounded-full bg-background group-hover:bg-primary/10 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone" aria-hidden="true">
+                                                    <path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"></path>
+                                                </svg></div>+380689277200
+                                        </a><a href="mailto:yaroslaw.baron@gmail.com" class="flex items-center gap-3 text-lg font-medium hover:text-primary transition-colors group">
+                                            <div class="p-3 rounded-full bg-background group-hover:bg-primary/10 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail" aria-hidden="true">
+                                                    <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
+                                                    <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                                                </svg></div>Email
+                                        </a><a href="https://t.me/notbadnowyouu" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 text-lg font-medium hover:text-primary transition-colors group">
+                                            <div class="p-3 rounded-full bg-background group-hover:bg-primary/10 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-send" aria-hidden="true">
+                                                    <path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"></path>
+                                                    <path d="m21.854 2.147-10.94 10.939"></path>
+                                                </svg></div>Telegram
+                                        </a></div>
+                                </div>
+                            </div>
+                        </section>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const buttons = document.querySelectorAll('.accordion-button');
+
+  buttons.forEach(button => {
+    button.addEventListener('click', () => {
+      const content = button.nextElementSibling;
+      const isOpen = content.classList.contains('open');
+
+      // Закриваємо всі інші (якщо хочеш тільки один відкритий) — закоментуй, якщо хочеш кілька одночасно
+      // buttons.forEach(btn => {
+      //   const c = btn.nextElementSibling;
+      //   c.classList.remove('open');
+      //   c.style.maxHeight = '0px';
+      //   btn.classList.remove('active');
+      // });
+
+      if (isOpen) {
+        content.style.maxHeight = '0px';
+        setTimeout(() => {
+          content.classList.remove('open');
+        }, 400);
+        button.classList.remove('active');
+        button.querySelector('.button-text').textContent = 'Показати більше';
+      } else {
+        content.classList.add('open');
+        content.style.maxHeight = content.scrollHeight + 'px';
+        button.classList.add('active');
+        button.querySelector('.button-text').textContent = 'Приховати';
+      }
+    });
+  });
+});
+</script>
+
+
 </body>
-</html>
