@@ -1,3 +1,20 @@
+.accordion-content {
+  max-height: 0;
+  opacity: 0;
+  transition: max-height 0.4s ease, opacity 0.3s ease;
+}
+
+.accordion-content.open {
+  opacity: 1;
+}
+
+.accordion-button .chevron {
+  transition: transform 0.4s ease;
+}
+
+.accordion-button.active .chevron {
+  transform: rotate(180deg);
+}
 @font-face {
   font-family: 'DM Sans';
   font-style: italic;
